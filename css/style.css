@@ -27,6 +27,7 @@ header img{
 /* Metto un margine di 20px a tutto il mio container */
 .container{
   margin: 20px;
+  position: relative;
 }
 
 .title-article h1{
@@ -76,8 +77,35 @@ ul{
 table{
   border: 2px solid black;
 }
+/* -------------------------- */
+
+/*sezione articoli consigliati*/
+/* -------------------------- */
+.list-article{
+  margin-top: 20px;
+}
+
+.list-article p{
+  color: #7f8080;
+  font-weight: 700;
+}
+
+.other-articles{
+  position: relative;
+}
+
+.other-articles p{
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  color: white;
+  font-weight: 700;
+}
 
 /* -------------------------- */
+
 
 /* FINE MAIN */
 /* -------------------------- */
+
+
