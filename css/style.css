@@ -18,6 +18,8 @@ header {
   height: 100%;
   margin: 0 auto;
   position: relative;
+
+  /* basta usare margin 0 auto per centrare un div, sul width */
   /* position: absolute;
   left: 50%;
   transform: translate(-50%,0); */
@@ -34,13 +36,13 @@ header {
 
 /* MAIN */
 /* -------------------------- */
-/* Metto un margine di 20px a tutto il mio container */
 
 /* main{
   position: relative;
 } */
 
 .container{
+  /* Metto un margine di 20px a tutto il mio container */
   margin: 20px;
 
   /* parte di css per centrare il container */
