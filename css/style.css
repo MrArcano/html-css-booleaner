@@ -10,20 +10,22 @@ header {
   background-color: #4ea0ff;
   background-image: url("../img/pattern.png");
   height: 170px;
-  position: relative;
+  /* position: relative; */
 }
 
 .logo{
   width: 1100px;
   height: 100%;
-  position: absolute;
+  margin: 0 auto;
+  position: relative;
+  /* position: absolute;
   left: 50%;
-  transform: translate(-50%,0);
+  transform: translate(-50%,0); */
 }
 
 .logo img{
-  height: 50%;
   position: absolute;
+  height: 50%;
   bottom: 16px;
   left: 16px;
 }
@@ -33,9 +35,10 @@ header {
 /* MAIN */
 /* -------------------------- */
 /* Metto un margine di 20px a tutto il mio container */
-main{
+
+/* main{
   position: relative;
-}
+} */
 
 .container{
   margin: 20px;
@@ -43,9 +46,11 @@ main{
   /* parte di css per centrare il container */
   /* -------------------------- */
   width: 1100px;
-  position: absolute;
+  margin: 0 auto;
+
+  /* position: absolute;
   left: 50%;
-  transform: translate(-50%,0);
+  transform: translate(-50%,0); */
   /* -------------------------- */
 }
 
