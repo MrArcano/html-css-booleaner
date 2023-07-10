@@ -65,10 +65,15 @@ header img{
   font-weight: 500;
 }
 
+.mark{
+  background-color: #e4e467;
+}
+
 ul{
   margin-top: 20px;
   margin-left: 20px;
 }
+
 
 /* -------------------------- */
 
