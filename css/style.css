@@ -76,7 +76,23 @@ ul{
 /* -------------------------- */
 table{
   border: 2px solid black;
+  width: 100%;
 }
+
+th {
+  background-color: #23a9e5;
+  color: white;
+  padding: 8px;
+}
+
+tr{
+  padding: 8px 0px;
+}
+
+tr:nth-child(odd) {
+  background-color: #b1e5f2;
+}
+
 /* -------------------------- */
 
 /*sezione articoli consigliati*/
