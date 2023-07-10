@@ -30,22 +30,54 @@ header img{
 }
 
 .title-article h1{
-  font-size: 40px;
+  font-size: 36px;
 }
 
-span{
-  margin: 20px;
-}
-
+/* sezione authore e descrizione */
+/* -------------------------- */
 .author{
   color: #7f8080;
 }
 
-.author span a{
+.author p{
+  margin-bottom: 8px;
+}
+
+.author p a{
   color: #4ea0ff;
 }
 
+.author p a:visited{
+  color: #4ea0ff;
+}
+
+.img-description{
+  font-size: 12px;
+}
+/* -------------------------- */
+
+/* sezione testo articolo*/
+/* -------------------------- */
+
+.text-article{
+  margin: 20px 0px;
+}
+
+ul{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+/* -------------------------- */
+
+
+/* sezione tabella */
+/* -------------------------- */
 table{
   border: 2px solid black;
 }
+
+/* -------------------------- */
+
+/* FINE MAIN */
 /* -------------------------- */
