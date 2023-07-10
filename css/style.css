@@ -13,11 +13,18 @@ header {
   position: relative;
 }
 
-header img{
+.logo{
+  width: 1100px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+.logo img{
   height: 50%;
   position: absolute;
-  bottom: 8px;
-  left: 32px;
+  bottom: 16px;
 }
 /* -------------------------- */
 
@@ -25,9 +32,20 @@ header img{
 /* MAIN */
 /* -------------------------- */
 /* Metto un margine di 20px a tutto il mio container */
+main{
+  position: relative;
+}
+
 .container{
   margin: 20px;
-  position: relative;
+
+  /* parte di css per centrare il container */
+  /* -------------------------- */
+  width: 1100px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+  /* -------------------------- */
 }
 
 .title-article h1{
