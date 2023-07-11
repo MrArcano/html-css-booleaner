@@ -60,6 +60,9 @@ header {
 
 .author p{
   margin-bottom: 8px;
+  font-size: 12px;
+  /* oppure font-size: 0.8rem; */
+  
 }
 
 .author p a, .author p a:visited{
